@@ -55,6 +55,10 @@ public class BalanceActivity extends BaseFragmentActivity implements
 		config.setHead(BaseFragmentActivity.inHeaders());*/
 	}
 
+	/**
+	 * 
+	 * @param view
+	 */
 	@InjectMethod(@InjectListener(ids = { R.id.btn_balance }, listeners = { OnClick.class }))
 	public void click(View view) {
 		// 验证
@@ -78,14 +82,14 @@ public class BalanceActivity extends BaseFragmentActivity implements
 		startActivity(intent);
 	}
 	/*************************************************
-	 @Title: change 
-	 @Description: TODO(根据文本变更 他更改按钮状态) 
+	 @Title: change
+	 @Description: TODO(根据文本变更 他更改按钮状态)
 	 @param s
 	 @param start
 	 @param before
-	 @param count    设定文件 
-	 @return void    返回类型 
-	 @throws 
+	 @param count    设定文件
+	 @return void    返回类型
+	 @throws
 	 @date  2015-1-8
 	*************************************************/
 	@InjectMethod(@InjectListener(ids = { R.id.member_name, R.id.member_certificate }, listeners = { OnTextChanged.class }))
