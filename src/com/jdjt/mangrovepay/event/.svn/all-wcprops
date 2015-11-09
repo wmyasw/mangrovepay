@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/hotelapp_android/!svn/ver/23/mangrovepay/src/com/jdjt/mangrovepay/event
+END
+MSGInfoEntity.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/hotelapp_android/!svn/ver/22/mangrovepay/src/com/jdjt/mangrovepay/event/MSGInfoEntity.java
+END
+WXPayDto.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/hotelapp_android/!svn/ver/9/mangrovepay/src/com/jdjt/mangrovepay/event/WXPayDto.java
+END
+FragmentEntity.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/hotelapp_android/!svn/ver/4/mangrovepay/src/com/jdjt/mangrovepay/event/FragmentEntity.java
+END
+MainEntity.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/hotelapp_android/!svn/ver/9/mangrovepay/src/com/jdjt/mangrovepay/event/MainEntity.java
+END
+CardListEntity.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/hotelapp_android/!svn/ver/5/mangrovepay/src/com/jdjt/mangrovepay/event/CardListEntity.java
+END
+FragmentEventEntity.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/hotelapp_android/!svn/ver/4/mangrovepay/src/com/jdjt/mangrovepay/event/FragmentEventEntity.java
+END
+MSGEntity.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/hotelapp_android/!svn/ver/23/mangrovepay/src/com/jdjt/mangrovepay/event/MSGEntity.java
+END
+SlidingEntity.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/hotelapp_android/!svn/ver/4/mangrovepay/src/com/jdjt/mangrovepay/event/SlidingEntity.java
+END
+OlinePayDto.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/hotelapp_android/!svn/ver/9/mangrovepay/src/com/jdjt/mangrovepay/event/OlinePayDto.java
+END
+SlidingToggleEntity.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/hotelapp_android/!svn/ver/4/mangrovepay/src/com/jdjt/mangrovepay/event/SlidingToggleEntity.java
+END
+CardPayDto.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/hotelapp_android/!svn/ver/9/mangrovepay/src/com/jdjt/mangrovepay/event/CardPayDto.java
+END
+MSGCountEntity.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/hotelapp_android/!svn/ver/22/mangrovepay/src/com/jdjt/mangrovepay/event/MSGCountEntity.java
+END
+AccountPayDto.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/hotelapp_android/!svn/ver/9/mangrovepay/src/com/jdjt/mangrovepay/event/AccountPayDto.java
+END

@@ -1,0 +1,125 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+        <!-- 自定义loading dialog -->
+    <style name="loading_dialog" parent="android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@color/half_full</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+    <style name="login_checkbox" parent="@android:style/Widget.CompoundButton.CheckBox">
+        <item name="android:paddingLeft">16dp</item>
+    </style>
+
+    <style name="app_" parent="@android:style/Theme.NoTitleBar">
+        <item name="android:windowBackground">@color/common_bg</item>
+    </style>
+
+    <style name="AppBtn">
+        <item name="android:layout_height">53dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <!-- <item name="android:textStyle">bold</item> -->
+        <item name="android:layout_marginLeft">18dp</item>
+        <item name="android:layout_marginRight">18dp</item>
+        <item name="android:layout_marginTop">18dp</item>
+        <item name="android:background">@drawable/setbtn_bg</item>
+        <item name="android:textColor">@drawable/text_state_whitetogreen</item>
+        <item name="android:textSize">@dimen/textsize_32</item>
+    </style>
+
+    <style name="styleName" parent="@style/shadow">
+        <item name="android:layout_margin">10dp</item>
+        <item name="android:textColor">@color/personal_text_color</item>
+        <item name="android:textSize">35dp</item>
+    </style>
+
+    <style name="regsit_input" parent="android:Widget.EditText">
+        <item name="android:background">@drawable/bg_edittext</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textColor">@color/text_gray_lable</item>
+        <item name="android:textColorHint">@color/line_color_out</item>
+        <item name="android:drawablePadding">12dp</item>
+        <item name="android:textSize">@dimen/textsize_30</item>
+    </style>
+
+    <style name="common_input" parent="android:Widget.EditText">
+        <item name="android:background">@null</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:drawablePadding">12dp</item>
+        <item name="android:textColor">@color/text_gray_lable</item>
+        <item name="android:textColorHint">@color/line_color_out</item>
+        <item name="android:textSize">@dimen/textsize_30</item>
+
+    </style>
+
+    <style name="tab_style" parent="android:Widget.CompoundButton.RadioButton">
+        <item name="android:button">@null</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@drawable/radiobutton_color</item>
+        <item name="android:textSize">@dimen/textsize_32</item>
+    </style>
+
+    <style name="menu_btn" parent="android:Widget.Button">
+        <item name="android:background">@null</item>
+        <item name="android:paddingRight">18dp</item>
+        <item name="android:paddingLeft">18dp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/textsize_28</item>
+    </style>
+
+    <style name="left_menu_style" parent="android:Widget.CompoundButton.RadioButton">
+        <item name="android:button">@null</item>
+        <item name="android:drawablePadding">4dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:paddingLeft">18dp</item>
+        <item name="android:layout_height">58dp</item>
+        <item name="android:textColor">@drawable/text_state_left</item>
+        <item name="android:background">@drawable/left_selector_bg</item>
+        <item name="android:textSize">@dimen/textsize_32</item>
+    </style>
+
+    <style name="st_text_lable" parent="android:Widget.TextView">
+        <item name="android:textSize">@dimen/textsize_30</item>
+        <item name="android:textColor">@color/text_gray_lable</item>
+    </style>
+
+    <style name="st_text_value" parent="android:Widget.TextView">
+        <item name="android:textColor">@color/text_gray_value</item>
+        <item name="android:textSize">@dimen/textsize_30</item>
+    </style>
+
+    <style name="member_order_click">
+        <item name="android:textColor">@drawable/text_mem_content_selector</item>
+        <item name="android:background">@drawable/mem_order_press_backgroud</item>
+    </style>
+    <!-- 自定义Activity跳转时候防止黑屏处理 wmy -->
+    <style name="Transparent" parent="android:Theme">
+        <item name="android:windowBackground">@color/common_bg</item>
+        <!-- 设置无标题 -->
+        <item name="android:windowNoTitle">true</item>
+        <!-- 将Activity的Theme设置成透明 -->
+        <item name="android:windowIsTranslucent">true</item>
+        <!-- 设置进入动画 -->
+        <item name="android:windowAnimationStyle"> @style/translateUpActivity</item>
+    </style>
+    <!-- 从下向上进入 窗口 -->
+    <style name="translateUpActivity" parent="@android:style/Animation.Activity">
+        <item name="android:activityOpenEnterAnimation">@anim/main_up_in</item>
+        <item name="android:activityOpenExitAnimation">@anim/main_down_out</item>
+        <item name="android:activityCloseEnterAnimation">@anim/main_up_in</item>
+        <item name="android:activityCloseExitAnimation">@anim/main_down_out</item>
+    </style>
+	<style name="alertDialog" parent="@android:style/Animation.Dialog"> 
+        <item name="android:textColor">#00FF00</item> 
+        <item name="android:typeface">monospace</item> 
+        <item name="android:textSize">10sp</item> 
+    </style> 
+    
+</resources>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal" >
+
+    <RelativeLayout
+        android:id="@+id/hotel_card_info"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true" >
+
+        <ImageView
+            android:id="@+id/hotel_card_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+              android:layout_marginTop="10dp"
+            android:src="@drawable/no_discount_bg" />
+
+        <RelativeLayout
+            android:id="@+id/ownercard_positive_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/hotel_card_image"
+            android:layout_alignLeft="@id/hotel_card_image"
+            android:layout_alignRight="@id/hotel_card_image"
+            android:layout_alignTop="@id/hotel_card_image"
+            android:layout_alignWithParentIfMissing="true"
+            android:layout_centerHorizontal="true"
+            android:visibility="visible" >
+
+            <TextView
+                android:id="@+id/hotel_card_positive_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="60dp"
+                android:layout_marginTop="20dp"
+                android:text="账户余额"
+                android:textColor="@color/white"
+                android:textSize="@dimen/textsize_28" />
+
+            <TextView
+                android:id="@+id/tx_balance"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/hotel_card_positive_tv"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="14dp"
+                android:textColor="@color/white"
+                android:textSize="@dimen/textsize_50" />
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>

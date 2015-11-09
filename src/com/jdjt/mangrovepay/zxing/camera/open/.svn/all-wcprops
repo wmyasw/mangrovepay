@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/hotelapp_android/!svn/ver/22/mangrovepay/src/com/jdjt/mangrovepay/zxing/camera/open
+END
+DefaultOpenCameraInterface.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/hotelapp_android/!svn/ver/22/mangrovepay/src/com/jdjt/mangrovepay/zxing/camera/open/DefaultOpenCameraInterface.java
+END
+GingerbreadOpenCameraInterface.java
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/hotelapp_android/!svn/ver/22/mangrovepay/src/com/jdjt/mangrovepay/zxing/camera/open/GingerbreadOpenCameraInterface.java
+END
+OpenCameraManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/hotelapp_android/!svn/ver/22/mangrovepay/src/com/jdjt/mangrovepay/zxing/camera/open/OpenCameraManager.java
+END
+OpenCameraInterface.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/hotelapp_android/!svn/ver/22/mangrovepay/src/com/jdjt/mangrovepay/zxing/camera/open/OpenCameraInterface.java
+END

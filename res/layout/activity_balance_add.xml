@@ -1,0 +1,81 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/login_lay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <RelativeLayout
+            android:id="@+id/relativeLayout1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+                android:background="@color/white"
+           android:paddingLeft="@dimen/panding_18" 
+                 android:focusable="true"  
+   android:focusableInTouchMode="true"
+             android:paddingRight="@dimen/panding_18" >
+	
+            <com.jdjt.mangrovepay.view.ClearEditText
+                android:id="@+id/member_name"
+                style="@style/common_input"
+                android:layout_width="wrap_content"
+                android:layout_height="53dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:ems="10"
+                android:hint="@string/member_name_hit"
+                android:inputType="textPersonName" />
+
+            <com.jdjt.mangrovepay.view.ClearEditText
+                android:id="@+id/member_certificate"
+                style="@style/common_input"
+                android:layout_width="wrap_content"
+           		android:layout_height="53dp"
+                android:layout_alignLeft="@+id/member_name"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/member_name"
+                android:digits="0123456789xyzXYZ"
+                android:ems="10"
+                android:hint="@string/_idNo"
+                android:inputType="text" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:layout_alignBottom="@+id/member_name"
+                android:layout_alignParentLeft="true"
+                android:background="@color/line_color_in" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:layout_alignBottom="@+id/member_certificate"
+                android:background="@color/line_color_in" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/btn_balance"
+        style="@style/AppBtn"
+        android:layout_width="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView1"
+        android:enabled="false"
+        android:text="@string/btn_next_hit" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/text_gray_lable"
+        android:layout_below="@+id/login_lay"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="@string/balance_msg" />
+
+</RelativeLayout>

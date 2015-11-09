@@ -1,0 +1,149 @@
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/hotelapp_android/!svn/ver/38/mangrovepay/src/com/jdjt/mangrovepay/activity
+END
+ChangePayPasswordActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/hotelapp_android/!svn/ver/37/mangrovepay/src/com/jdjt/mangrovepay/activity/ChangePayPasswordActivity.java
+END
+PaySuccessActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/hotelapp_android/!svn/ver/23/mangrovepay/src/com/jdjt/mangrovepay/activity/PaySuccessActivity.java
+END
+MainActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/hotelapp_android/!svn/ver/30/mangrovepay/src/com/jdjt/mangrovepay/activity/MainActivity.java
+END
+RegisterActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/hotelapp_android/!svn/ver/30/mangrovepay/src/com/jdjt/mangrovepay/activity/RegisterActivity.java
+END
+BalanceActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/hotelapp_android/!svn/ver/19/mangrovepay/src/com/jdjt/mangrovepay/activity/BalanceActivity.java
+END
+WebViewAactiviy.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/hotelapp_android/!svn/ver/22/mangrovepay/src/com/jdjt/mangrovepay/activity/WebViewAactiviy.java
+END
+TransferChannelAcitivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/hotelapp_android/!svn/ver/22/mangrovepay/src/com/jdjt/mangrovepay/activity/TransferChannelAcitivity.java
+END
+PayChannelAcitivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/hotelapp_android/!svn/ver/30/mangrovepay/src/com/jdjt/mangrovepay/activity/PayChannelAcitivity.java
+END
+WelcomeActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/hotelapp_android/!svn/ver/30/mangrovepay/src/com/jdjt/mangrovepay/activity/WelcomeActivity.java
+END
+CreateQRImageTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/hotelapp_android/!svn/ver/9/mangrovepay/src/com/jdjt/mangrovepay/activity/CreateQRImageTest.java
+END
+FindPwdResetActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/hotelapp_android/!svn/ver/18/mangrovepay/src/com/jdjt/mangrovepay/activity/FindPwdResetActivity.java
+END
+ChangeLoginPasswordActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/hotelapp_android/!svn/ver/21/mangrovepay/src/com/jdjt/mangrovepay/activity/ChangeLoginPasswordActivity.java
+END
+QROnlinePayActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/hotelapp_android/!svn/ver/30/mangrovepay/src/com/jdjt/mangrovepay/activity/QROnlinePayActivity.java
+END
+PayPwsswordActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/hotelapp_android/!svn/ver/19/mangrovepay/src/com/jdjt/mangrovepay/activity/PayPwsswordActivity.java
+END
+FindPasswordActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/hotelapp_android/!svn/ver/29/mangrovepay/src/com/jdjt/mangrovepay/activity/FindPasswordActivity.java
+END
+CaptureActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/hotelapp_android/!svn/ver/30/mangrovepay/src/com/jdjt/mangrovepay/activity/CaptureActivity.java
+END
+BindPhoneActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/hotelapp_android/!svn/ver/21/mangrovepay/src/com/jdjt/mangrovepay/activity/BindPhoneActivity.java
+END
+BindCardActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/hotelapp_android/!svn/ver/21/mangrovepay/src/com/jdjt/mangrovepay/activity/BindCardActivity.java
+END
+NotificationResult.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/hotelapp_android/!svn/ver/18/mangrovepay/src/com/jdjt/mangrovepay/activity/NotificationResult.java
+END
+LoginActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/hotelapp_android/!svn/ver/29/mangrovepay/src/com/jdjt/mangrovepay/activity/LoginActivity.java
+END
+FindPayPwdResetActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/hotelapp_android/!svn/ver/34/mangrovepay/src/com/jdjt/mangrovepay/activity/FindPayPwdResetActivity.java
+END
+ConsumptionListActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/hotelapp_android/!svn/ver/22/mangrovepay/src/com/jdjt/mangrovepay/activity/ConsumptionListActivity.java
+END
+FindPayPasswordActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/hotelapp_android/!svn/ver/38/mangrovepay/src/com/jdjt/mangrovepay/activity/FindPayPasswordActivity.java
+END
+ChangePhoneActivity.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/hotelapp_android/!svn/ver/38/mangrovepay/src/com/jdjt/mangrovepay/activity/ChangePhoneActivity.java
+END

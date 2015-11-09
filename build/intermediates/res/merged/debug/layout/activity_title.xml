@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="53dp"
+    android:layout_gravity="bottom|top"
+    android:background="@color/title_bg" >
+
+    <!-- 标题栏左侧   标签容器 -->
+
+    <LinearLayout
+        android:id="@+id/linear_left_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="6dp"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <ImageButton
+            android:id="@+id/img_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ic_back"
+            android:visibility="visible" />
+
+        <ImageView
+            android:id="@+id/btn_leftmenu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/menu"
+            android:text="@string/menu_hit"
+             android:visibility="gone"
+             />
+    </LinearLayout>
+
+    <!-- 标题栏 中间标签容器 -->
+
+    <LinearLayout
+        android:id="@+id/title_center_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <!-- tab选择页 -->
+
+        <TextView
+            android:id="@+id/textview_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/app_name"
+            android:textColor="@color/white"
+            android:textSize="@dimen/textsize_32"
+            android:visibility="visible" />
+    </LinearLayout>
+    <!-- 餐饮类型a -->
+
+    <Spinner
+        android:id="@+id/foodTypeList"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:drawable/spinner_background"
+        android:gravity="center"
+        android:visibility="gone" />
+
+    <!-- 标题栏  右侧 标签容器 -->
+
+    <LinearLayout
+        android:id="@+id/linear_Right_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="0dp"
+        android:gravity="center_vertical|right"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/btn_manage"
+            style="@style/menu_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:text="@string/_manage_hit" />
+    </LinearLayout>
+
+</RelativeLayout><!-- From: file:/E:/GitHub/mangrovepay/res/layout/activity_title.xml -->

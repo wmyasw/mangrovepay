@@ -1,0 +1,71 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/login_lay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <RelativeLayout
+            android:id="@+id/relativeLayout1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:background="@color/white"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:paddingLeft="@dimen/panding_18"
+            android:paddingRight="@dimen/panding_18" >
+
+            <com.jdjt.mangrovepay.view.ClearEditText
+                android:id="@+id/bind_cardNo"
+                style="@style/common_input"
+                android:layout_width="wrap_content"
+                android:layout_height="53dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:ems="10"
+                android:hint="@string/tx_cardNo"
+                android:imeOptions="actionNext"
+                android:inputType="number" />
+
+            <com.jdjt.mangrovepay.view.ClearEditText
+                android:id="@+id/bind_cardpwd"
+                style="@style/common_input"
+                android:layout_width="wrap_content"
+                android:layout_height="53dp"
+                android:layout_alignLeft="@+id/bind_cardNo"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/bind_cardNo"
+                android:ems="10"
+                android:hint="@string/cz_pssword_6"
+                android:inputType="numberPassword" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:layout_alignBottom="@+id/bind_cardpwd"
+                android:layout_alignParentLeft="true"
+                android:background="@color/line_color_in" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:layout_alignBottom="@+id/bind_cardNo"
+                android:background="@color/line_color_in" />
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/btn_bindcard"
+            style="@style/AppBtn"
+            android:layout_width="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/relativeLayout1"
+            android:enabled="false"
+            android:text="@string/bind_hit" />
+    </RelativeLayout>
+
+</RelativeLayout>

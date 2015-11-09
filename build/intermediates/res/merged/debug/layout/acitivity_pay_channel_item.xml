@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:paddingLeft="18dp" >
+
+    <RelativeLayout
+        android:id="@+id/rl_pay_channel"
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:background="@color/white" >
+
+        <TextView
+            android:id="@+id/tx_channel_code"
+            style="@style/st_text_lable"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:text=""
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/img_ischecked"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="6dp"
+            android:src="@drawable/ic_hook_green"
+            android:visibility="gone" />
+
+        <LinearLayout
+            android:id="@+id/linearLayout1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/tx_channel_name"
+                style="@style/st_text_lable"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="账户余额" />
+
+            <TextView
+                android:id="@+id/tx_kyed"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/text_gray_value"
+                android:textSize="@dimen/textsize_26"
+                android:text="" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tx_last_cardno"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+         
+            android:layout_alignTop="@+id/linearLayout1"
+            android:layout_toRightOf="@+id/linearLayout1"
+              android:textColor="@color/text_gray_value"
+                android:textSize="@dimen/textsize_26"
+            android:text="" />
+
+    </RelativeLayout>
+
+</LinearLayout><!-- From: file:/E:/GitHub/mangrovepay/res/layout/acitivity_pay_channel_item.xml -->

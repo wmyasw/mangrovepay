@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- 定义当button获得focus时的形态 -->
+    <item  android:state_pressed="true"  ><shape>    
+        <solid android:color="@color/btn_bg_green" />
+            <corners android:bottomLeftRadius="4dp" android:bottomRightRadius="0dp" android:topLeftRadius="0dp" android:topRightRadius="0dp" />
+        
+        </shape></item>
+    <item android:state_focused="false" android:state_pressed="false" ><shape>
+        <solid android:color="@color/white" />
+            <corners android:bottomLeftRadius="4dp" android:bottomRightRadius="0dp" android:topLeftRadius="0dp" android:topRightRadius="0dp" />
+            
+        </shape></item>
+
+</selector><!-- From: file:/E:/GitHub/mangrovepay/res/drawable/btn_bottom_corners_left.xml -->

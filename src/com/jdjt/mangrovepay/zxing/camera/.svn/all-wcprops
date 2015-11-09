@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/hotelapp_android/!svn/ver/22/mangrovepay/src/com/jdjt/mangrovepay/zxing/camera
+END
+FlashlightManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/hotelapp_android/!svn/ver/9/mangrovepay/src/com/jdjt/mangrovepay/zxing/camera/FlashlightManager.java
+END
+AutoFocusManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/hotelapp_android/!svn/ver/22/mangrovepay/src/com/jdjt/mangrovepay/zxing/camera/AutoFocusManager.java
+END
+CameraManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/hotelapp_android/!svn/ver/10/mangrovepay/src/com/jdjt/mangrovepay/zxing/camera/CameraManager.java
+END
+AutoFocusCallback.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/hotelapp_android/!svn/ver/9/mangrovepay/src/com/jdjt/mangrovepay/zxing/camera/AutoFocusCallback.java
+END
+CameraConfigurationManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/hotelapp_android/!svn/ver/9/mangrovepay/src/com/jdjt/mangrovepay/zxing/camera/CameraConfigurationManager.java
+END
+PlanarYUVLuminanceSource.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/hotelapp_android/!svn/ver/9/mangrovepay/src/com/jdjt/mangrovepay/zxing/camera/PlanarYUVLuminanceSource.java
+END
+PreviewCallback.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/hotelapp_android/!svn/ver/22/mangrovepay/src/com/jdjt/mangrovepay/zxing/camera/PreviewCallback.java
+END

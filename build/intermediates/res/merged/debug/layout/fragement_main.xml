@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/line_color_in"
+    android:orientation="vertical" >
+
+        <RelativeLayout
+            android:id="@+id/fragement_main"
+            style="@style/w_h_full" >
+        </RelativeLayout>
+</LinearLayout><!-- From: file:/E:/GitHub/mangrovepay/res/layout/fragement_main.xml -->

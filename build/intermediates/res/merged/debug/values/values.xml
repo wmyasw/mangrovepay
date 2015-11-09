@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/E:/GitHub/mangrovepay/res/values/colors.xml -->
+    <eat-comment/>
+    <color name="add_card_bg">#cecece</color>
+    <color name="app_back">#323232</color>
+    <color name="ask_back">#2f2f2f</color>
+    <color name="ask_title">#3c3c3a</color>
+    <color name="bk_color">#d0d1d5</color>
+    <color name="btn_bg_green">#198569</color>
+    <color name="btn_boder_bg">#bfbfbf</color>
+    <color name="btn_disable_bg">#c5c5c5</color>
+    <color name="btn_txt_blue_bg">#0395ba</color>
+    <color name="common_bg">#E6E6E6</color>
+    <color name="contents_text">#ff000000</color>
+    <color name="encode_view">#ffffffff</color>
+    <color name="half_70">#b2000000</color>
+    <color name="half_full">#00000000</color>
+    <color name="help_button_view">#ffcccccc</color>
+    <color name="help_view">#ff404040</color>
+    <color name="home_banner_back">#242423</color>
+    <color name="left_bg">#198669</color>
+    <color name="left_bg_selected">#146b54</color>
+    <color name="left_right_bg">#c0198669</color>
+    <color name="left_text_bg">#7ab193</color>
+    <color name="line_color_in">#e3e4e8</color>
+    <color name="line_color_out">#d0d1d5</color>
+    <color name="main_item_content">#565252</color>
+    <color name="paper_list_1">#cbcbc9</color>
+    <color name="paper_list_2">#797882</color>
+    <color name="paper_list_3">#eac721</color>
+    <color name="paper_menu">#242423</color>
+    <color name="paper_menu_text">#73635e</color>
+    <color name="paper_name">#4146b0</color>
+    <color name="paper_price">#fda306</color>
+    <color name="personal_text_color">#6c6a6c</color>
+    <color name="personal_yellow">#fa9a1e</color>
+    <color name="possible_result_points">#c0ffff00</color>
+    <color name="question_info">#c8ba18</color>
+    <color name="red_point">#e36274</color>
+    <color name="result_image_border">#ffffffff</color>
+    <color name="result_minor_text">#ffc0c0c0</color>
+    <color name="result_points">#c000ff00</color>
+    <color name="result_text">#ffffffff</color>
+    <color name="result_view">#b0000000</color>
+    <color name="right_menu">#262626</color>
+    <color name="sbc_header_text">#ff808080</color>
+    <color name="sbc_header_view">#ffffffff</color>
+    <color name="sbc_layout_view">#ffffffff</color>
+    <color name="sbc_list_item">#fffff0e0</color>
+    <color name="sbc_page_number_text">#ff000000</color>
+    <color name="sbc_snippet_text">#ff4b4b4b</color>
+    <color name="share_text">#ff000000</color>
+    <color name="share_view">#ffffffff</color>
+    <color name="status_text">#ffffffff</color>
+    <color name="status_view">#50000000</color>
+    <color name="text_color">#0395ba</color>
+    <color name="text_color_green">#6fa78e</color>
+    <color name="text_gray_lable">#484b59</color>
+    <color name="text_gray_value">#8b8d9e</color>
+    <color name="text_hit_bg">#dcdcdc</color>
+    <color name="title_bg">#7ab193</color>
+    <color name="transparent">#00000000</color>
+    <color name="viewfinder_frame">#ff000000</color>
+    <color name="viewfinder_laser">#ffff0000</color>
+    <color name="viewfinder_mask">#60000000</color>
+    <color name="welcome_bg">#46CCB3</color>
+    <color name="white">#FFFFFFFF</color>
+    <!-- From: file:/E:/GitHub/mangrovepay/res/values/dimens.xml -->
+    <eat-comment/>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="list_padding">10dp</dimen>
+    <dimen name="map_textsize_default">18sp</dimen>
+    <dimen name="margin_53">53dp</dimen>
+    <dimen name="margin_footer_bottom">30dp</dimen>
+    <dimen name="panding_16">16dp</dimen>
+    <dimen name="panding_18">18dp</dimen>
+    <dimen name="shadow_width">15dp</dimen>
+    <dimen name="shop_detail_margin">5dp</dimen>
+    <dimen name="slidingmenu_offset">60dp</dimen>
+    <dimen name="textsize_20">11sp</dimen>
+    <dimen name="textsize_22">12sp</dimen>
+    <dimen name="textsize_24">13sp</dimen>
+    <dimen name="textsize_26">14sp</dimen>
+    <dimen name="textsize_28">15sp</dimen>
+    <dimen name="textsize_30">17sp</dimen>
+    <dimen name="textsize_32">18sp</dimen>
+    <dimen name="textsize_36">20sp</dimen>
+    <dimen name="textsize_48">26sp</dimen>
+    <dimen name="textsize_50">28sp</dimen>
+    <dimen name="textsize_72">40sp</dimen>
+    <!-- From: file:/E:/GitHub/mangrovepay/res/values/ids.xml -->
+    <eat-comment/>
+    <item name="auto_focus" type="id"/>
+    <item name="decode" type="id"/>
+    <item name="decode_failed" type="id"/>
+    <item name="decode_succeeded" type="id"/>
+    <item name="encode_failed" type="id"/>
+    <item name="encode_succeeded" type="id"/>
+    <item name="launch_product_query" type="id"/>
+    <item name="quit" type="id"/>
+    <item name="restart_preview" type="id"/>
+    <item name="return_scan_result" type="id"/>
+    <item name="search_book_contents_failed" type="id"/>
+    <item name="search_book_contents_succeeded" type="id"/>
+    <!-- From: file:/E:/GitHub/mangrovepay/res/values/dimens.xml -->
+    <eat-comment/>
+    <integer name="num_cols">1</integer>
+    <!-- From: file:/E:/GitHub/mangrovepay/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="_amount">￥%1$s</string>
+    <string name="_balance_hit">账户余额</string>
+    <string name="_clear">取  消</string>
+    <string name="_clear_cache">清除缓存</string>
+    <string name="_discount_hit">折扣</string>
+    <string name="_enter">确  定</string>
+    <string name="_hsl_card_hit">红树林卡</string>
+    <string name="_idNo">证件号</string>
+    <string name="_kyed_price">可用额度￥%1$s</string>
+    <string name="_login">登  录</string>
+    <string name="_logo">度假宝logo</string>
+    <string name="_manage_hit">管 理</string>
+    <string name="_merchant">商户</string>
+    <string name="_price_hit">支付金额</string>
+    <string name="_register">注  册</string>
+    <string name="about_hit">关于</string>
+    <string name="about_us_hit">关于我们</string>
+    <string name="account_agreement_hit">《账户储值协议》</string>
+    <string name="account_recharge_hit">账户余额充值</string>
+    <string name="action_settings">Settings</string>
+    <string name="actual_payments_hit">实际支付金额</string>
+    <string name="amount_payable_hit">应付金额</string>
+    <string name="app_cancel">取消</string>
+    <string name="app_name">度假宝</string>
+    <string name="app_ok">确定</string>
+    <string name="balance_msg">为保证您的账户安全，须真实填写上述信息</string>
+    <string name="bind_hit">绑定</string>
+    <string name="bind_phone_hit">新手机号</string>
+    <string name="btn_login_hit">登录</string>
+    <string name="btn_next_hit">下一步</string>
+    <string name="btn_return_login_hit">安全退出</string>
+    <string name="btn_sub_hit">完成</string>
+    <string name="btn_submit_hit">提交</string>
+    <string name="change_passsword">修改登录密码</string>
+    <string name="change_pay_password_hit">修改支付密码</string>
+    <string name="change_phone_hit">更换绑定手机</string>
+    <string name="check_hit">验证</string>
+    <string name="check_msg_hit">短信验证码</string>
+    <string name="cz_pssword_6">6位数字密码</string>
+    <string name="find_pay_password_hit">找回支付密码</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="last_cardNo">尾号￥%1$s</string>
+    <string name="login_name_hit">手机号或电子邮箱</string>
+    <string name="login_password_hit">原登录密码</string>
+    <string name="login_pwd_hit">登录密码</string>
+    <string name="member_name_hit">真实姓名</string>
+    <string name="menu_hit">菜单</string>
+    <string name="msg_info_hit">消息中心</string>
+    <string name="new_login_password_hit">新登录密码</string>
+    <string name="new_password_hit">新密码</string>
+    <string name="new_pay_password_hit">新6位支付密码</string>
+    <string name="new_pwd_hit">新密码</string>
+    <string name="opinion_hit">意见反馈</string>
+    <string name="order_no_hit">订单号</string>
+    <string name="out_account_transfer_hit">转出账户</string>
+    <string name="pay_amount">金额 %1$s</string>
+    <string name="pay_password_hit">原支付密码</string>
+    <string name="pay_pwd_hit">请输入密码</string>
+    <string name="paypassword_hit">6位支付密码</string>
+    <string name="pwd_link">忘记密码</string>
+    <string name="re_login_password_hit">重复新登录密码</string>
+    <string name="re_password_hit">重复新密码</string>
+    <string name="re_pay_password_hit">重复新支付密码</string>
+    <string name="re_paypassword_hit">重复支付密码</string>
+    <string name="recharge_price_hit">充值金额</string>
+    <string name="register_link">立即注册</string>
+    <string name="register_name_hit">手机号</string>
+    <string name="register_pwd_hit">6-18位登录密码</string>
+    <string name="renew_pwd_hit">重复新密码</string>
+    <string name="scan_payment_hit">扫码支付</string>
+    <string name="select_pay_type_hit">选择支付方式</string>
+    <string name="setting_hit">设置</string>
+    <string name="tk_hit">轻触下面的"完成"按钮，即表示你同意</string>
+    <string name="tk_link">《度假宝服务协议》</string>
+    <string name="transfer_account_phone_hit">转入账户手机号</string>
+    <string name="transfer_amount_hit">转账金额</string>
+    <string name="transfer_hit">转账</string>
+    <string name="tx_cardNo">个人消费卡卡号</string>
+    <string name="updata_check_hit">检查版本更新</string>
+    <string name="wallet_hit">度假宝钱包</string>
+    <string name="wx_msg_hit">现在只支持微信客户端支付</string>
+    <!-- From: file:/E:/GitHub/mangrovepay/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="AppBtn">
+        <item name="android:layout_height">53dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <!-- <item name="android:textStyle">bold</item> -->
+        <item name="android:layout_marginLeft">18dp</item>
+        <item name="android:layout_marginRight">18dp</item>
+        <item name="android:layout_marginTop">18dp</item>
+        <item name="android:background">@drawable/setbtn_bg</item>
+        <item name="android:textColor">@drawable/text_state_whitetogreen</item>
+        <item name="android:textSize">@dimen/textsize_32</item>
+    </style>
+    <style name="Transparent" parent="android:Theme">
+        <item name="android:windowBackground">@color/common_bg</item>
+        <!-- 设置无标题 -->
+        <item name="android:windowNoTitle">true</item>
+        <!-- 将Activity的Theme设置成透明 -->
+        <item name="android:windowIsTranslucent">true</item>
+        <!-- 设置进入动画 -->
+        <item name="android:windowAnimationStyle"> @style/translateUpActivity</item>
+    </style>
+    <style name="alertDialog" parent="@android:style/Animation.Dialog"> 
+        <item name="android:textColor">#00FF00</item> 
+        <item name="android:typeface">monospace</item> 
+        <item name="android:textSize">10sp</item> 
+    </style>
+    <style name="app_" parent="@android:style/Theme.NoTitleBar">
+        <item name="android:windowBackground">@color/common_bg</item>
+    </style>
+    <style name="common_input" parent="android:Widget.EditText">
+        <item name="android:background">@null</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:drawablePadding">12dp</item>
+        <item name="android:textColor">@color/text_gray_lable</item>
+        <item name="android:textColorHint">@color/line_color_out</item>
+        <item name="android:textSize">@dimen/textsize_30</item>
+
+    </style>
+    <!-- From: file:/E:/GitHub/mangrovepay/res/values/themes_basic.xml -->
+    <eat-comment/>
+    <style name="h_weight_w_full">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">0.0dp</item>
+    </style>
+    <style name="h_weight_w_wrap">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">0.0dp</item>
+    </style>
+    <!-- From: file:/E:/GitHub/mangrovepay/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="left_menu_style" parent="android:Widget.CompoundButton.RadioButton">
+        <item name="android:button">@null</item>
+        <item name="android:drawablePadding">4dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:paddingLeft">18dp</item>
+        <item name="android:layout_height">58dp</item>
+        <item name="android:textColor">@drawable/text_state_left</item>
+        <item name="android:background">@drawable/left_selector_bg</item>
+        <item name="android:textSize">@dimen/textsize_32</item>
+    </style>
+    <style name="loading_dialog" parent="android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@color/half_full</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+    <style name="login_checkbox" parent="@android:style/Widget.CompoundButton.CheckBox">
+        <item name="android:paddingLeft">16dp</item>
+    </style>
+    <style name="member_order_click">
+        <item name="android:textColor">@drawable/text_mem_content_selector</item>
+        <item name="android:background">@drawable/mem_order_press_backgroud</item>
+    </style>
+    <style name="menu_btn" parent="android:Widget.Button">
+        <item name="android:background">@null</item>
+        <item name="android:paddingRight">18dp</item>
+        <item name="android:paddingLeft">18dp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/textsize_28</item>
+    </style>
+    <style name="regsit_input" parent="android:Widget.EditText">
+        <item name="android:background">@drawable/bg_edittext</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textColor">@color/text_gray_lable</item>
+        <item name="android:textColorHint">@color/line_color_out</item>
+        <item name="android:drawablePadding">12dp</item>
+        <item name="android:textSize">@dimen/textsize_30</item>
+    </style>
+    <!-- From: file:/E:/GitHub/mangrovepay/res/values/themes_basic.xml -->
+    <eat-comment/>
+    <style name="shadow" parent="w_wrap_h_wrap">
+         <item name="android:shadowDx">2</item>
+        <item name="android:shadowDy">2</item>
+         <item name="android:shadowRadius">3</item>
+        <item name="android:shadowColor">@android:color/black</item>
+    </style>
+    <style name="shadow_h_weight" parent="h_weight_w_wrap">
+         <item name="android:shadowDx">2</item>
+        <item name="android:shadowDy">2</item>
+         <item name="android:shadowRadius">3</item>
+        <item name="android:shadowColor">@android:color/black</item>
+    </style>
+    <style name="shadow_w_full" parent="w_full_h_wrap">
+         <item name="android:shadowDx">2</item>
+        <item name="android:shadowDy">2</item>
+         <item name="android:shadowRadius">3</item>
+        <item name="android:shadowColor">@android:color/black</item>
+    </style>
+    <style name="shadow_w_weight" parent="w_weight_h_wrap">
+         <item name="android:shadowDx">2</item>
+        <item name="android:shadowDy">2</item>
+         <item name="android:shadowRadius">3</item>
+        <item name="android:shadowColor">@android:color/black</item>
+    </style>
+    <!-- From: file:/E:/GitHub/mangrovepay/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="st_text_lable" parent="android:Widget.TextView">
+        <item name="android:textSize">@dimen/textsize_30</item>
+        <item name="android:textColor">@color/text_gray_lable</item>
+    </style>
+    <style name="st_text_value" parent="android:Widget.TextView">
+        <item name="android:textColor">@color/text_gray_value</item>
+        <item name="android:textSize">@dimen/textsize_30</item>
+    </style>
+    <style name="styleName" parent="@style/shadow">
+        <item name="android:layout_margin">10dp</item>
+        <item name="android:textColor">@color/personal_text_color</item>
+        <item name="android:textSize">35dp</item>
+    </style>
+    <style name="tab_style" parent="android:Widget.CompoundButton.RadioButton">
+        <item name="android:button">@null</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@drawable/radiobutton_color</item>
+        <item name="android:textSize">@dimen/textsize_32</item>
+    </style>
+    <style name="translateUpActivity" parent="@android:style/Animation.Activity">
+        <item name="android:activityOpenEnterAnimation">@anim/main_up_in</item>
+        <item name="android:activityOpenExitAnimation">@anim/main_down_out</item>
+        <item name="android:activityCloseEnterAnimation">@anim/main_up_in</item>
+        <item name="android:activityCloseExitAnimation">@anim/main_down_out</item>
+    </style>
+    <!-- From: file:/E:/GitHub/mangrovepay/res/values/themes_basic.xml -->
+    <eat-comment/>
+    <style name="w_full_h_wrap">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="w_h_full">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+    </style>
+    <style name="w_weight_h_full">
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:layout_width">0.0dp</item>
+    </style>
+    <style name="w_weight_h_wrap">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">0.0dp</item>
+    </style>
+    <style name="w_wrap_h_full">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">fill_parent</item>
+    </style>
+    <style name="w_wrap_h_wrap">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+</resources>

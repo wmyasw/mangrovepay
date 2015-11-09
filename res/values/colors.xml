@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 100%全透明 -->
+    <color name="half_full">#00000000</color>
+    <!-- 70%全透明 -->
+    <color name="half_70">#b2000000</color>
+    <color name="personal_yellow">#fa9a1e</color>
+    <color name="app_back">#323232</color>
+    <color name="personal_text_color">#6c6a6c</color>
+    <color name="home_banner_back">#242423</color>
+    <color name="paper_name">#4146b0</color>
+    <color name="paper_price">#fda306</color>
+    <color name="paper_menu">#242423</color>
+    <color name="paper_menu_text">#73635e</color>
+    <color name="ask_title">#3c3c3a</color>
+    <color name="ask_back">#2f2f2f</color>
+    <color name="main_item_content">#565252</color>
+    <color name="question_info">#c8ba18</color>
+    <color name="paper_list_1">#cbcbc9</color>
+    <color name="paper_list_2">#797882</color>
+    <color name="paper_list_3">#eac721</color>
+    <color name="right_menu">#262626</color>
+    <!-- 欢迎页背景色 -->
+    <color name="welcome_bg">#46CCB3</color>
+    <!-- msg红色点 -->
+    <color name="red_point">#e36274</color>
+    <!-- link字体颜色 -->
+    <color name="text_color">#0395ba</color>
+    <!-- 边框颜色 -->
+    <color name="bk_color">#d0d1d5</color>
+    <!-- 文字颜色(重要突出字,强调字,白色背景装饰字,浅灰色背景装饰字) 绿色 -->
+    <color name="text_color_green">#6fa78e</color>
+    <!-- 浅灰色底的分割线 -->
+    <color name="line_color_out">#d0d1d5</color>
+    <!-- 白色底分割线 -->
+    <color name="line_color_in">#e3e4e8</color>
+    <!-- 主框架中间部分背景色 -->
+    <color name="common_bg">#E6E6E6</color>
+    <!-- 按钮背景色 绿色 -->
+    <color name="btn_bg_green">#198569</color>
+    <!-- 按钮边框 -->
+    <color name="btn_boder_bg">#bfbfbf</color>
+    <!-- 按钮btn_txt_blue_bg -->
+    <color name="btn_txt_blue_bg">#0395ba</color>
+    <!-- 白色 -->
+    <color name="white">#FFFFFFFF</color>
+    <!-- 标题字,主要内容字,输入框文字,内容类别标题信息 -->
+    <color name="text_gray_lable">#484b59</color>
+    <color name="text_gray_value">#8b8d9e</color>
+    <!-- 文本框提示文字颜色 -->
+    <color name="text_hit_bg">#dcdcdc</color>
+    <color name="title_bg">#7ab193</color>
+    <!-- 公共背景色 -->
+    <color name="add_card_bg">#cecece</color>
+    <color name="btn_disable_bg">#c5c5c5</color>
+    <!-- leftmenu -->
+    <color name="left_bg">#198669</color>
+    <color name="left_bg_selected">#146b54</color>
+    <color name="left_right_bg">#c0198669</color>
+    <color name="left_text_bg">#7ab193</color>
+
+    <!-- zxing -->
+    <color name="contents_text">#ff000000</color>
+    <color name="encode_view">#ffffffff</color>
+    <color name="help_button_view">#ffcccccc</color>
+    <color name="help_view">#ff404040</color>
+    <color name="possible_result_points">#c0ffff00</color>
+    <color name="result_image_border">#ffffffff</color>
+    <color name="result_minor_text">#ffc0c0c0</color>
+    <color name="result_points">#c000ff00</color>
+    <color name="result_text">#ffffffff</color>
+    <color name="result_view">#b0000000</color>
+    <color name="sbc_header_text">#ff808080</color>
+    <color name="sbc_header_view">#ffffffff</color>
+    <color name="sbc_list_item">#fffff0e0</color>
+    <color name="sbc_layout_view">#ffffffff</color>
+    <color name="sbc_page_number_text">#ff000000</color>
+    <color name="sbc_snippet_text">#ff4b4b4b</color>
+    <color name="share_text">#ff000000</color>
+    <color name="share_view">#ffffffff</color>
+    <color name="status_view">#50000000</color>
+    <color name="status_text">#ffffffff</color>
+    <color name="transparent">#00000000</color>
+    <color name="viewfinder_frame">#ff000000</color>
+    <color name="viewfinder_laser">#ffff0000</color>
+    <color name="viewfinder_mask">#60000000</color>
+
+</resources>

@@ -1,0 +1,56 @@
+10
+
+dir
+39
+https://192.168.1.85/svn/hotelapp_android/mangrovepay/bin/res/crunch
+https://192.168.1.85/svn/hotelapp_android
+delete
+
+
+2015-01-06T08:17:25.414925Z
+3
+wangmingyu
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ce7a0b64-0436-495f-b795-c5366ef2a131
+
+drawable-hdpi
+dir
+
+
+
+delete
+
+drawable-xxhdpi
+dir
+
+
+
+delete
+
+drawable-mdpi
+dir
+
+
+
+delete
+
+drawable-xhdpi
+dir
+
+
+
+delete
+

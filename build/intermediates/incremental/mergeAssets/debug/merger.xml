@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="E:\GitHub\mangrovepay\assets"><file name="down.png" path="E:\GitHub\mangrovepay\assets\down.png"/><file name="mvc.properties" path="E:\GitHub\mangrovepay\assets\mvc.properties"/><file name="up.png" path="E:\GitHub\mangrovepay\assets\up.png"/></source></dataSet><dataSet config="debug"><source path="E:\GitHub\mangrovepay\build-types\debug\assets"/></dataSet></merger>

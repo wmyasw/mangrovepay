@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:paddingLeft="18dp" >
+
+    <RelativeLayout
+        android:id="@+id/rl_pay_channel"
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:background="@color/white" >
+
+        <TextView
+            android:id="@+id/tx_content_url"
+            style="@style/st_text_lable"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:text=""
+            android:visibility="gone" />
+
+        <LinearLayout
+            android:id="@+id/linearLayout1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/tx_msg_title"
+                style="@style/st_text_lable"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textSize="@dimen/textsize_28" />
+
+            <TextView
+                android:id="@+id/tx_msg_content"
+                android:layout_width="338dp"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:text=""
+                android:textColor="@color/text_gray_value"
+                android:textSize="@dimen/textsize_24" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tx_msg_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@+id/linearLayout1"
+            android:paddingRight="18dp"
+            android:text=""
+            android:textColor="@color/text_gray_value"
+            android:textSize="@dimen/textsize_28" />
+    </RelativeLayout>
+
+</LinearLayout>

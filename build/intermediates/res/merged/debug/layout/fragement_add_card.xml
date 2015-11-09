@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 红树林卡页面 -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/btn_layout_addcard"
+        android:layout_width="match_parent"
+        android:layout_height="106dp" 
+        android:background="@drawable/add_corner_commonbg"
+        android:layout_margin="@dimen/panding_18"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_bind" />
+
+        <TextView
+            android:id="@+id/txt_content"
+            android:layout_marginLeft="12dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#847678"
+            android:textSize="@dimen/textsize_32"
+            android:text="绑定红树林卡" />
+
+    </LinearLayout>
+
+</LinearLayout>
+<!-- From: file:/E:/GitHub/mangrovepay/res/layout/fragement_add_card.xml -->

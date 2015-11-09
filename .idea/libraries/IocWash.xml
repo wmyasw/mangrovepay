@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="IocWash">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/libs/IocWash.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/hotelapp_android/!svn/ver/22/mangrovepay/src/com/jdjt/mangrovepay/zxing/common/executor
+END
+AsyncTaskExecManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/hotelapp_android/!svn/ver/22/mangrovepay/src/com/jdjt/mangrovepay/zxing/common/executor/AsyncTaskExecManager.java
+END
+AsyncTaskExecInterface.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/hotelapp_android/!svn/ver/22/mangrovepay/src/com/jdjt/mangrovepay/zxing/common/executor/AsyncTaskExecInterface.java
+END
+DefaultAsyncTaskExecInterface.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/hotelapp_android/!svn/ver/22/mangrovepay/src/com/jdjt/mangrovepay/zxing/common/executor/DefaultAsyncTaskExecInterface.java
+END

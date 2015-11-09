@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/common_bg"
+    android:gravity="center_horizontal" >
+
+        <ImageView
+            android:id="@+id/hotel_card_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/common_card"
+            android:layout_marginTop="10dp"
+            android:scaleType="fitCenter" />
+
+        <RelativeLayout
+            android:id="@+id/ownercard_positive_text"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignBottom="@id/hotel_card_image"
+            android:layout_alignLeft="@id/hotel_card_image"
+            android:layout_alignRight="@id/hotel_card_image"
+            android:layout_alignTop="@id/hotel_card_image"
+            android:layout_alignWithParentIfMissing="true"
+            android:layout_centerHorizontal="true"
+            android:visibility="visible" >
+
+            <TextView
+                android:id="@+id/card_name_v"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="43dp"
+                android:text=""
+                android:textColor="@color/text_gray_lable"
+                android:textSize="@dimen/textsize_30" />
+
+            <TextView
+                android:id="@+id/TextView01"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/hotel_card_no_tv"
+                android:layout_alignBottom="@+id/hotel_card_no_tv"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="13dp"
+                android:text="余额 :"
+                android:textColor="@color/text_gray_lable"
+                android:textSize="@dimen/textsize_30" />
+
+            <TextView
+                android:id="@+id/tx_balance_v"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/hotel_card_no_tv"
+                android:layout_alignBottom="@+id/hotel_card_no_tv"
+                android:layout_alignRight="@+id/card_name_v"
+                android:layout_toRightOf="@+id/TextView01"
+                android:singleLine="true"
+                android:text=""
+                android:textColor="@color/text_gray_lable"
+                android:textSize="@dimen/textsize_30" />
+
+            <TextView
+                android:id="@+id/txt_card_no"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/hotel_card_no_tv"
+                android:layout_alignBottom="@+id/hotel_card_no_tv"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="11dp"
+                android:text=""
+                android:textColor="@color/text_gray_lable"
+                android:textSize="@dimen/textsize_30" />
+
+            <TextView
+                android:id="@+id/hotel_card_no_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="15dp"
+                android:layout_toLeftOf="@+id/txt_card_no"
+                android:text="尾号 :"
+                android:textColor="@color/text_gray_lable"
+                android:textSize="@dimen/textsize_30" />
+
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/img_unbind"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginRight="-5dp"
+            android:layout_alignRight="@+id/hotel_card_image"
+            android:visibility="gone"
+            android:src="@drawable/unbind" />
+
+</RelativeLayout><!-- From: file:/E:/GitHub/mangrovepay/res/layout/mem_hotelcard_list_item.xml -->

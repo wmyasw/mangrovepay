@@ -1,0 +1,102 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollView1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:gravity="center"
+              android:focusable="true"  
+   android:focusableInTouchMode="true"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="60dp"
+            android:src="@drawable/logo" />
+
+        <RelativeLayout
+            android:id="@+id/login_lay"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <RelativeLayout
+                android:id="@+id/relativeLayout1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:paddingLeft="@dimen/panding_18"
+                android:paddingRight="@dimen/panding_18" >
+
+                <com.jdjt.mangrovepay.view.ClearEditText
+                    android:id="@+id/login_name"
+                    style="@style/regsit_input"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/margin_53"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentTop="true"
+                    android:drawableLeft="@drawable/ic_account"
+                    android:ems="10"
+                    android:hint="@string/login_name_hit"
+                    android:imeOptions="actionNext"
+                    android:inputType="text"
+                    android:padding="2dp"
+                    >
+                </com.jdjt.mangrovepay.view.ClearEditText>
+
+                <com.jdjt.mangrovepay.view.ClearEditText
+                    android:id="@+id/login_pwd"
+                    style="@style/regsit_input"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/margin_53"
+                    android:layout_alignLeft="@+id/login_name"
+                    android:layout_alignParentRight="true"
+                    android:layout_below="@+id/login_name"
+                    android:layout_marginTop="5dp"
+                    android:drawableLeft="@drawable/ic_password"
+                    android:ems="10"
+                    android:hint="@string/login_pwd_hit"
+                    android:imeOptions="actionDone"
+                   android:padding="2dp"
+                    android:inputType="textPassword"
+                 />
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/tx_pwd_link"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/tx_register_link"
+                android:layout_alignBottom="@+id/tx_register_link"
+                android:layout_alignLeft="@+id/login_button"
+                android:layout_marginTop="12dp"
+                android:text="@string/pwd_link"
+                android:textColor="@color/text_color" />
+
+            <TextView
+                android:id="@+id/tx_register_link"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignRight="@+id/login_button"
+                android:layout_below="@+id/login_button"
+                android:layout_marginTop="12dp"
+                android:text="@string/register_link"
+                android:textColor="@color/text_color" />
+
+            <Button
+                android:id="@+id/login_button"
+                style="@style/AppBtn"
+                android:layout_width="match_parent"
+                android:layout_below="@+id/relativeLayout1"
+                android:layout_centerHorizontal="true"
+                android:enabled="false"
+                android:text="@string/_login" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</ScrollView><!-- From: file:/E:/GitHub/mangrovepay/res/layout/activity_login.xml -->

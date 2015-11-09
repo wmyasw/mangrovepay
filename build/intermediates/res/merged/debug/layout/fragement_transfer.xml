@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 账户余额 -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/rl_transfer_channel"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:background="@color/white"
+        android:paddingLeft="@dimen/panding_18" >
+
+        <TextView
+            android:id="@+id/tx_out_account_name"
+            style="@style/st_text_lable"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:text="@string/out_account_transfer_hit" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="5dp"
+            android:src="@drawable/arrow_right_green" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/line_color_in" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:background="@color/white"
+        android:paddingLeft="@dimen/panding_18" >
+
+        <com.jdjt.mangrovepay.view.ClearEditText
+            android:id="@+id/tx_in_transfer_account"
+            style="@style/common_input"
+            android:layout_width="match_parent"
+            android:layout_height="58dp"
+            android:hint="@string/transfer_account_phone_hit"
+            android:inputType="number"
+            android:textColorHint="@color/line_color_out"
+            android:textSize="@dimen/textsize_30" />
+
+        <TextView
+            android:id="@+id/tx_account_v"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignLeft="@+id/tx_in_transfer_account"
+            android:layout_centerVertical="true"
+            android:gravity="center_vertical"
+            android:textSize="@dimen/textsize_30"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/line_color_in" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:background="@color/white"
+        android:paddingLeft="@dimen/panding_18" >
+
+        <com.jdjt.mangrovepay.view.ClearEditText
+            android:id="@+id/tx_transfer_amount"
+            style="@style/common_input"
+            android:layout_width="match_parent"
+            android:layout_height="58dp"
+            android:hint="@string/transfer_amount_hit"
+            android:inputType="numberDecimal"
+            android:textColorHint="@color/line_color_out"
+            android:textSize="@dimen/textsize_30" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/line_color_in" />
+
+    <Button
+        android:id="@+id/btn_transfer_next"
+        style="@style/AppBtn"
+        android:layout_width="match_parent"
+        android:enabled="false"
+        android:text="@string/btn_next_hit" />
+
+</LinearLayout><!-- From: file:/E:/GitHub/mangrovepay/res/layout/fragement_transfer.xml -->

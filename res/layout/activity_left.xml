@@ -1,0 +1,84 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/left_bg"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="55dp"
+        android:background="@color/left_bg"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingLeft="10dp" >
+
+        <TextView
+            android:id="@+id/left_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textColor="@color/white"
+            android:textSize="20dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/radioGroup1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/linearLayout1"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/ll_wallet"
+            style="@style/left_menu_style"
+            android:checked="true"
+            android:drawableLeft="@drawable/ico_qb_selector"
+            android:text="@string/wallet_hit" />
+
+        <Button
+            android:id="@+id/ll_sm"
+            style="@style/left_menu_style"
+            android:drawableLeft="@drawable/ico_sm_selector"
+            android:text="@string/scan_payment_hit" />
+
+        <Button
+            android:id="@+id/ll_account_recharge"
+            style="@style/left_menu_style"
+            android:drawableLeft="@drawable/ico_balance_selector"
+            android:text="@string/account_recharge_hit" />
+
+        <Button
+            android:id="@+id/ll_transfer"
+            style="@style/left_menu_style"
+            android:drawableLeft="@drawable/ico_transfer_selector"
+            android:text="@string/transfer_hit" />
+
+        <Button
+            android:id="@+id/ll_msg_info"
+            style="@style/left_menu_style"
+            android:drawableLeft="@drawable/ico_msg_selector"
+            android:text="@string/msg_info_hit" >
+        </Button>
+
+        <Button
+            android:id="@+id/ll_setting"
+            style="@style/left_menu_style"
+            android:layout_width="match_parent"
+            android:drawableLeft="@drawable/ico_setting_selector"
+            android:text="@string/setting_hit" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="8dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:alpha="0x80"
+        android:background="@drawable/left_mun_shape" >
+    </RelativeLayout>
+
+
+</RelativeLayout>

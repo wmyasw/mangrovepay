@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:gravity="center"
+    >
+   
+    <LinearLayout 
+        android:id="@+id/hotelcard_cancle_banding_dilog"
+        android:layout_width="match_parent"
+   		android:layout_height="wrap_content"
+   		android:orientation="vertical"
+   		android:background="@drawable/btn_corner_white"
+   		android:layout_marginLeft="30dp"
+   		android:layout_marginRight="30dp"
+        >
+         <TextView
+	        android:id="@+id/t_msg"
+	        android:layout_width="match_parent"
+	        android:layout_height="96dp"
+	        android:text="确定解除绑定?"
+	         android:layout_margin="10dp"
+	        android:gravity="center"
+	        android:textSize="@dimen/textsize_36"
+	        android:textColor="@color/text_gray_lable"
+	         />
+         <View android:layout_height="0.5dp"
+             android:layout_width="match_parent"
+             android:background="@color/line_color_in"/>
+        <LinearLayout 
+            android:id="@+id/buttonLayout"
+            android:layout_width="match_parent"
+            android:layout_height="53dp"
+            android:orientation="horizontal">
+            <Button 
+                android:id="@+id/hotelcard_cancle_banding_btn"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+		        android:textSize="@dimen/textsize_36"
+		         android:textColor="@drawable/text_state_greentowhirte"
+                android:text="@string/_clear"
+                android:background="@drawable/btn_bottom_corners_left"
+                />
+            
+             <View android:layout_height="match_parent"
+             android:layout_width="0.5dp"
+             android:background="@color/line_color_in"/>
+             
+            <Button 
+                android:id="@+id/hotelcard_submit_banding_btn"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+		        android:textSize="@dimen/textsize_36"
+		        android:textColor="@drawable/text_state_greentowhirte"
+                android:text="@string/_enter"
+                android:background="@drawable/btn_bottom_corners_right"
+
+                />
+        </LinearLayout>
+    </LinearLayout>
+
+
+	    
+</LinearLayout>

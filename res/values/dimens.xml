@@ -1,0 +1,38 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+     <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+     <dimen name="shop_detail_margin">5dp</dimen>
+    <dimen name="slidingmenu_offset">60dp</dimen>
+    <dimen name="list_padding">10dp</dimen>
+    <dimen name="shadow_width">15dp</dimen>
+    <dimen name="panding_18">18dp</dimen>
+    <dimen name="panding_16">16dp</dimen>
+    <dimen name="margin_53">53dp</dimen>
+    <dimen name="map_textsize_default">18sp</dimen>
+    <!-- 20号字体 -->
+	<dimen name="textsize_20">11sp</dimen>
+    <!-- 22号字体 -->
+	<dimen name="textsize_22">12sp</dimen>
+	<!-- 24号字体 -->
+	<dimen name="textsize_24">13sp</dimen>
+	<!-- 26号字体 -->
+	<dimen name="textsize_26">14sp</dimen>
+	<!-- 28号字体 -->
+	<dimen name="textsize_28">15sp</dimen>
+	<!-- 30号字体 -->
+	<dimen name="textsize_30">17sp</dimen>
+	<!-- 32号字体 -->
+	<dimen name="textsize_32">18sp</dimen>
+	<!-- 36号字体 -->
+	<dimen name="textsize_36">20sp</dimen>
+	<!-- 48号字体 -->
+	<dimen name="textsize_48">26sp</dimen>
+	<!-- 50号字体 -->
+	<dimen name="textsize_50">28sp</dimen>
+	<!-- 72号字体 -->
+	<dimen name="textsize_72">40sp</dimen>
+    <integer name="num_cols">1</integer>
+	<dimen name="margin_footer_bottom">30dp</dimen>
+</resources>

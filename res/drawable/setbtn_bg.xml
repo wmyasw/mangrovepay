@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+   <!--     定义当button获得focus时的形态-->
+    <item android:state_pressed="true" android:drawable="@color/title_bg">
+    </item>
+      <!--     定义当button被禁用时的形态-->
+     <item android:state_enabled="false" android:drawable="@color/btn_disable_bg">
+    </item>
+ <!--    <item  android:state_focused="true" android:drawable="@color/title_bg">
+        <shape>
+        	<solid android:color="@color/title_bg" />
+        	<corners android:radius="2dp" />
+        </shape>
+    </item> -->  
+    
+  <item  android:state_pressed="false" android:state_focused="false"  android:drawable="@color/btn_bg_green" >
+      
+  </item>
+      
+</selector>

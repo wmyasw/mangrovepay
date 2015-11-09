@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 账户余额 -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:background="@color/white"
+     >
+
+        <com.jdjt.mangrovepay.view.ClearEditText
+            android:id="@+id/recharge_price"
+            style="@style/common_input"
+            android:layout_width="match_parent"
+            android:layout_height="58dp"
+            android:ems="10"
+               android:paddingLeft="@dimen/panding_18" 
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:hint="@string/recharge_price_hit"
+            android:inputType="numberDecimal" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_alignBottom="@+id/recharge_price"
+        android:layout_alignParentLeft="true"
+        android:background="@color/line_color_in" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="18dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/wx_msg_hit"
+        android:textColor="@color/text_gray_lable"
+        android:textSize="@dimen/textsize_28" />
+
+    <Button
+        android:id="@+id/btn_recharge"
+        style="@style/AppBtn"
+        android:layout_width="match_parent"
+        android:enabled="false"
+        android:text="@string/btn_next_hit" />
+
+</LinearLayout>

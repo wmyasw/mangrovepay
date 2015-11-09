@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/hotelcard_cancle_banding_dilog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_corner_white"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/layout_pwd_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:visibility="visible" >
+
+            <LinearLayout
+                android:id="@+id/layout_pwd_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/tx_alert_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="52dp"
+                    android:gravity="center"
+                    android:text=""
+                    android:textColor="@color/text_gray_lable"
+                    android:textSize="@dimen/textsize_32" />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1px"
+                android:background="@color/line_color_out" />
+
+            <TextView
+                android:id="@+id/tx_pay_merchant"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text=""
+                android:textColor="@color/text_gray_value"
+                android:textSize="@dimen/textsize_32" />
+		<TextView
+                android:id="@+id/tx_pay_amount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text=""
+                android:textColor="@color/text_gray_value"
+                android:textSize="@dimen/textsize_32" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="18dp"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <EditText
+                    android:id="@+id/tx_pay_pwd"
+                    android:layout_width="match_parent"
+                    android:layout_height="44dp"
+                    android:layout_weight="0.86"
+                    android:background="@drawable/stroke_bf"
+                    android:hint="@string/pay_pwd_hit"
+                    android:paddingLeft="12dp"
+                    android:textColorHint="@color/text_hit_bg"
+                    android:inputType="numberPassword"
+                    android:textSize="@dimen/textsize_32" >
+                    <requestFocus />
+                </EditText>
+            </LinearLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1px"
+                android:background="@color/line_color_out" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/line_color_in" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="53dp"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/btn_clear"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/btn_bottom_corners_left"
+                android:gravity="center"
+                android:text="@string/_clear"
+                android:textColor="@drawable/text_state_greentowhirte"
+                android:textSize="@dimen/textsize_36" />
+
+            <View
+                android:layout_width="0.5dp"
+                android:layout_height="match_parent"
+                android:background="@color/line_color_in" />
+
+            <Button
+                android:id="@+id/btn_ok"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/btn_bottom_corners_right"
+                android:gravity="center"
+                android:text="@string/_enter"
+                android:textColor="@drawable/text_state_greentowhirte"
+                android:enabled="false"
+                android:textSize="@dimen/textsize_36" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout><!-- From: file:/E:/GitHub/mangrovepay/res/layout/activity_pay_alert.xml -->

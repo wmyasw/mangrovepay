@@ -1,0 +1,77 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/parents"
+    style="@style/w_h_full"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/layout_title"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <include
+            android:id="@+id/reservation_title"
+            android:layout_width="match_parent"
+            layout="@layout/activity_title" />
+
+        <LinearLayout
+            android:id="@+id/main_tab"
+            style="@style/w_full_h_wrap"
+            android:layout_gravity="center_horizontal"
+            android:background="@color/title_bg"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:visibility="visible" >
+
+            <!-- tab选择页 -->
+
+            <RadioGroup
+                android:id="@+id/tabFragmentGroup"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_marginTop="8dp"
+                android:orientation="horizontal" >
+
+                <RadioButton
+                    android:id="@+id/tab_hslcard"
+                    style="@style/tab_style"
+                    android:layout_width="112dp"
+                    android:layout_height="34dp"
+                    android:background="@drawable/radiobutton_left_off"
+                    android:checked="true"
+                    android:layout_weight="1"
+                    android:text="@string/_hsl_card_hit" />
+
+                <RadioButton
+                    android:id="@+id/tab_balance"
+                    android:layout_width="112dp"
+                    android:layout_height="34dp"
+                    android:layout_marginLeft="-0.5dp"
+                        android:background="@drawable/radiobutton_off"
+                     style="@style/tab_style"
+                    android:text="@string/_balance_hit"
+                />
+            </RadioGroup>
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/center_common"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="@color/common_bg"
+            android:visibility="visible" >
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/center_common_nofooter"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:visibility="gone" >
+        </RelativeLayout>
+    </LinearLayout>
+
+</RelativeLayout>

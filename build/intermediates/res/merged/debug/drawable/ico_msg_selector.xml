@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- 定义当button获得focus时的形态 -->
+  <item android:drawable="@drawable/selected_msg"  android:state_checked="true"/>
+    <item android:drawable="@drawable/default_msg" android:state_checked="false"/>
+</selector><!-- From: file:/E:/GitHub/mangrovepay/res/drawable/ico_msg_selector.xml -->

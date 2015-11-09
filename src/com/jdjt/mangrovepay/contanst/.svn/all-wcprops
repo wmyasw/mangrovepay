@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/hotelapp_android/!svn/ver/30/mangrovepay/src/com/jdjt/mangrovepay/contanst
+END
+HeaderConst.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/hotelapp_android/!svn/ver/4/mangrovepay/src/com/jdjt/mangrovepay/contanst/HeaderConst.java
+END
+CardTypeEnum.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/hotelapp_android/!svn/ver/7/mangrovepay/src/com/jdjt/mangrovepay/contanst/CardTypeEnum.java
+END
+Url.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/hotelapp_android/!svn/ver/30/mangrovepay/src/com/jdjt/mangrovepay/contanst/Url.java
+END
+ErrorMsgEnum.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/hotelapp_android/!svn/ver/21/mangrovepay/src/com/jdjt/mangrovepay/contanst/ErrorMsgEnum.java
+END
+ModelEnum.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/hotelapp_android/!svn/ver/30/mangrovepay/src/com/jdjt/mangrovepay/contanst/ModelEnum.java
+END
+UrlParams.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/hotelapp_android/!svn/ver/11/mangrovepay/src/com/jdjt/mangrovepay/contanst/UrlParams.java
+END
+CZKCardTypeEnum.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/hotelapp_android/!svn/ver/7/mangrovepay/src/com/jdjt/mangrovepay/contanst/CZKCardTypeEnum.java
+END
+BalanceTypeEnum.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/hotelapp_android/!svn/ver/19/mangrovepay/src/com/jdjt/mangrovepay/contanst/BalanceTypeEnum.java
+END
+Constants.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/hotelapp_android/!svn/ver/26/mangrovepay/src/com/jdjt/mangrovepay/contanst/Constants.java
+END

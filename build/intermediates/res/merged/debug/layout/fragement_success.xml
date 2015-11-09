@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 账户余额 -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:background="@color/white"
+        android:padding="@dimen/panding_18"
+        >
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="60dp"
+            android:src="@drawable/info" />
+
+        <TextView
+            android:id="@+id/tx_success"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:textColor="@color/text_gray_lable"
+            android:textSize="@dimen/textsize_32"
+            android:layout_toRightOf="@+id/imageView1"
+            android:text="充值成功" />
+
+        <TextView
+            android:id="@+id/tx_account"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/tx_success"
+            android:layout_below="@+id/imageView1"
+            android:layout_marginTop="10dp"
+            android:text="15201027064" />
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/btn_recharge"
+         style="@style/AppBtn"
+        android:layout_width="match_parent"
+
+        android:text="@string/btn_sub_hit" />
+
+</LinearLayout><!-- From: file:/E:/GitHub/mangrovepay/res/layout/fragement_success.xml -->

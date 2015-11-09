@@ -1,0 +1,112 @@
+# view AndroidManifest.xml #generated:132
+-keep class com.jdjt.mangrovepay.activity.BalanceActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:125
+-keep class com.jdjt.mangrovepay.activity.BindCardActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:183
+-keep class com.jdjt.mangrovepay.activity.BindPhoneActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:144
+-keep class com.jdjt.mangrovepay.activity.CaptureActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:195
+-keep class com.jdjt.mangrovepay.activity.ChangeLoginPasswordActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:189
+-keep class com.jdjt.mangrovepay.activity.ChangePayPasswordActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:177
+-keep class com.jdjt.mangrovepay.activity.ChangePhoneActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:90
+-keep class com.jdjt.mangrovepay.activity.ConsumptionListActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:104
+-keep class com.jdjt.mangrovepay.activity.FindPasswordActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:201
+-keep class com.jdjt.mangrovepay.activity.FindPayPasswordActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:207
+-keep class com.jdjt.mangrovepay.activity.FindPayPwdResetActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:111
+-keep class com.jdjt.mangrovepay.activity.FindPwdResetActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:84
+-keep class com.jdjt.mangrovepay.activity.LoginActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:97
+-keep class com.jdjt.mangrovepay.activity.MainActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:165
+-keep class com.jdjt.mangrovepay.activity.PayChannelAcitivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:139
+-keep class com.jdjt.mangrovepay.activity.PayPwsswordActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:151
+-keep class com.jdjt.mangrovepay.activity.PaySuccessActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:158
+-keep class com.jdjt.mangrovepay.activity.QROnlinePayActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:118
+-keep class com.jdjt.mangrovepay.activity.RegisterActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:171
+-keep class com.jdjt.mangrovepay.activity.TransferChannelAcitivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:213
+-keep class com.jdjt.mangrovepay.activity.WebViewAactiviy { <init>(...); }
+
+# view AndroidManifest.xml #generated:64
+-keep class com.jdjt.mangrovepay.activity.WelcomeActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:51
+-keep class com.jdjt.mangrovepay.application.MangrovePayApp { <init>(...); }
+
+# view AndroidManifest.xml #generated:79
+-keep class com.jdjt.mangrovepay.service.LocalService { <init>(...); }
+
+# view res/layout/activity_balance_add.xml #generated:22
+# view res/layout/activity_balance_add.xml #generated:34
+# view res/layout/activity_bind_phone.xml #generated:22
+# view res/layout/activity_bind_phone.xml #generated:61
+# view res/layout/activity_bindcard_add.xml #generated:22
+# view res/layout/activity_bindcard_add.xml #generated:35
+# view res/layout/activity_change_login_password.xml #generated:17
+# view res/layout/activity_change_login_password.xml #generated:31
+# view res/layout/activity_change_login_password.xml #generated:45
+# view res/layout/activity_change_pay_password.xml #generated:17
+# view res/layout/activity_change_pay_password.xml #generated:31
+# view res/layout/activity_change_pay_password.xml #generated:45
+# view res/layout/activity_change_phone.xml #generated:67
+# view res/layout/activity_login.xml #generated:35
+# view res/layout/activity_login.xml #generated:52
+# view res/layout/activity_regsiter.xml #generated:23
+# view res/layout/activity_regsiter.xml #generated:56
+# view res/layout/activity_setpay_password.xml #generated:22
+# view res/layout/activity_setpay_password.xml #generated:34
+# view res/layout/find_password_check.xml #generated:21
+# view res/layout/find_password_check.xml #generated:60
+# view res/layout/find_pay_password.xml #generated:68
+# view res/layout/fragement_recharge.xml #generated:17
+# view res/layout/fragement_transfer.xml #generated:44
+# view res/layout/fragement_transfer.xml #generated:76
+# view res/layout/re_password.xml #generated:22
+# view res/layout/re_password.xml #generated:43
+# view res/layout/re_pay_password.xml #generated:22
+# view res/layout/re_pay_password.xml #generated:43
+-keep class com.jdjt.mangrovepay.view.ClearEditText { <init>(...); }
+
+# view AndroidManifest.xml #generated:224
+-keep class com.jdjt.mangrovepay.wxapi.AppRegister { <init>(...); }
+
+# view AndroidManifest.xml #generated:220
+-keep class com.jdjt.mangrovepay.wxapi.WXPayEntryActivity { <init>(...); }
+
+# view res/layout/zxing_main.xml #generated:12
+-keep class com.jdjt.mangrovepay.zxing.view.ViewfinderView { <init>(...); }
+

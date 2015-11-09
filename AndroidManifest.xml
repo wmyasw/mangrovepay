@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.jdjt.mangrovepay"
+    android:versionCode="1"
+    android:versionName="1.1" >
+    
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="19" />
+
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" >
+    </uses-permission>
+    <!-- 开启gps -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <!-- 允许程序打开网络sockets -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <!-- 允许程序访问有关的网络信息 -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <!-- 允许应用写（非读）用户的外部存储器 -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <!-- 读取联系人权限 -->
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <!-- 拨打电话权限 -->
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <uses-feature android:glEsVersion="0x00020000" />
+
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+
+    <uses-permission android:name="android.permission.FLASHLIGHT" />
+
+    <uses-feature android:name="android.hardware.autofocus" />
+
+    <uses-permission android:name="android.permission.HARDWARE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.READ_LOGS" />
+    <uses-permission android:name="android.permission.RESTART_PACKAGES" />
+
+    <supports-screens android:anyDensity="true" />
+
+    <application
+        android:name="com.jdjt.mangrovepay.application.MangrovePayApp"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/app_" >
+        <meta-data
+            android:name="exclude-package"
+            android:value="com.jdjt.mangrovepay.R,android.support.v4.app.FragmentActivity" />
+        <meta-data
+            android:name="include-package"
+            android:value="com.jdjt.mangrovepay" />
+        <!-- 初始化显示登录页面 -->
+        <activity
+            android:name="com.jdjt.mangrovepay.activity.WelcomeActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:scheme="wx5be2e2d485053960"/>
+                </intent-filter>
+        </activity>
+
+        <service
+            android:name="com.jdjt.mangrovepay.service.LocalService"
+          >
+        </service>
+        <!-- 登录页面 -->
+        <activity
+            android:name="com.jdjt.mangrovepay.activity.LoginActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" >
+        </activity>
+        <!-- 交易记录查询 -->
+        <activity
+            android:name="com.jdjt.mangrovepay.activity.ConsumptionListActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" >
+        </activity>
+
+        <!-- 首页 -->
+        <activity
+            android:name="com.jdjt.mangrovepay.activity.MainActivity"
+            android:windowSoftInputMode="stateHidden"
+             android:launchMode="singleTask"
+            android:screenOrientation="portrait" >
+        </activity>
+        <!-- 找回密码 -->
+        <activity
+            android:name="com.jdjt.mangrovepay.activity.FindPasswordActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Transparent"
+            android:windowSoftInputMode="stateHidden" >
+        </activity>
+        <!-- 密码重置 -->
+        <activity
+            android:name="com.jdjt.mangrovepay.activity.FindPwdResetActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" >
+        </activity>
+
+        <!-- 注册页面 -->
+        <activity
+            android:name="com.jdjt.mangrovepay.activity.RegisterActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Transparent"
+            android:windowSoftInputMode="stateHidden" >
+        </activity>
+        <!-- 绑定红树林卡页面 -->
+        <activity
+            android:name="com.jdjt.mangrovepay.activity.BindCardActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Transparent"
+            android:windowSoftInputMode="stateHidden" >
+        </activity>
+        <!-- 开启账户余额 -->
+        <activity
+            android:name="com.jdjt.mangrovepay.activity.BalanceActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Transparent"
+            android:windowSoftInputMode="stateHidden" >
+        </activity>
+        <!-- 设置支付密码 -->
+        <activity
+            android:name="com.jdjt.mangrovepay.activity.PayPwsswordActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <!-- 扫码支付 -->
+        <activity
+            android:name="com.jdjt.mangrovepay.activity.CaptureActivity"
+            android:hardwareAccelerated="true"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+        </activity>
+        <!-- 支付成功页 -->
+        <activity
+            android:name="com.jdjt.mangrovepay.activity.PaySuccessActivity"
+            android:hardwareAccelerated="true"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+        </activity>
+        <!-- 订单支付 -->
+        <activity
+            android:name="com.jdjt.mangrovepay.activity.QROnlinePayActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize" >
+        </activity>
+        <!-- 选择支付渠道 -->
+        <activity
+            android:name="com.jdjt.mangrovepay.activity.PayChannelAcitivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+        </activity>
+        <!-- 选择转账渠道 -->
+        <activity
+            android:name="com.jdjt.mangrovepay.activity.TransferChannelAcitivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+        </activity>
+        <!-- 变更手机 -->
+        <activity
+            android:name="com.jdjt.mangrovepay.activity.ChangePhoneActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+        </activity>
+        <!-- 绑定新手机 -->
+        <activity
+            android:name="com.jdjt.mangrovepay.activity.BindPhoneActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+        </activity>
+        <!-- 修改支付密码 -->
+        <activity
+            android:name="com.jdjt.mangrovepay.activity.ChangePayPasswordActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+        </activity>
+        <!-- 修改登录密码 -->
+        <activity
+            android:name="com.jdjt.mangrovepay.activity.ChangeLoginPasswordActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+        </activity>
+        <!-- 找回支付密码 -->
+        <activity
+            android:name="com.jdjt.mangrovepay.activity.FindPayPasswordActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+        </activity>
+        <!-- 修改支付密码 -->
+        <activity
+            android:name="com.jdjt.mangrovepay.activity.FindPayPwdResetActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+        </activity>
+        <!-- webview 页面 -->
+        <activity
+            android:name="com.jdjt.mangrovepay.activity.WebViewAactiviy"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+        </activity>
+        
+        
+        <activity
+            android:name=".wxapi.WXPayEntryActivity"
+            android:exported="true"
+            android:launchMode="singleTop"/>
+          <receiver
+            android:name="com.jdjt.mangrovepay.wxapi.AppRegister">
+            <intent-filter>
+                <action android:name="com.tencent.mm.plugin.openapi.Intent.ACTION_REFRESH_WXAPP" />
+            </intent-filter>
+        </receiver>
+    </application>
+
+</manifest>
